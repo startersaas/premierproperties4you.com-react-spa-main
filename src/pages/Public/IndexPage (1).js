@@ -9,7 +9,6 @@ import {
 import HomeIcon from '@mui/icons-material/Home';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import MLSFormComponent from './MLSFormComponent';
-import { motion } from 'framer-motion'; // Add this import
 
 const IndexPage = () => {
   const theme = useTheme();
@@ -66,19 +65,7 @@ const IndexPage = () => {
               justifyContent: 'center',
             }}
           >
-            {/* Animated Home Icon */}
-            <motion.div
-              animate={{ scaleX: [1, -1] }}
-              transition={{
-                duration: 0.6, // Animation duration of 0.6 seconds
-                repeat: Infinity,
-                repeatDelay: 0.6, // Pause of 0.6 seconds between animations
-                ease: "easeInOut"
-              }}
-            >
-              <HomeIcon sx={{ fontSize: 60, color: 'primary.main' }} />
-            </motion.div>
-            
+            <HomeIcon sx={{ fontSize: 60, color: 'primary.main' }} />
             <Typography variant="h4" sx={headerTextStyle}>
               Launch Your Property Listing Referral Today
             </Typography>

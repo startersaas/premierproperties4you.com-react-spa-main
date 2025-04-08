@@ -36,6 +36,7 @@ npm install \
   @fortawesome/react-fontawesome \
   svg-loaders-react \
   three \
+  framer-motion \
   mathjs \
   mysql2
 npm install --save-dev \
@@ -106,6 +107,7 @@ npm install \
   @fortawesome/react-fontawesome \
   svg-loaders-react \
   three \
+  framer-motion \
   mathjs \
   mysql2
 npm install --save-dev \
